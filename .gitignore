@@ -1,16 +1,64 @@
-# Compiled class file
-*.class
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+out/
+*.ipr
+# User-specific files
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf/
 
-# Log file
+# IntelliJ modules and caches
+.idea/modules.xml
+.idea/.name
+.idea/assetWizardSettings.xml
+.idea/caches/
+.idea/libraries/
+.idea/compiler.xml
+.idea/jarRepositories.xml
+
+# =========================
+# Maven / Gradle
+# =========================
+target/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+.gradle-cache/
+**/build/
+
+# =========================
+# Spring Boot specific
+# =========================
+# Logs
 *.log
+logs/
+*.out
 
-# BlueJ files
-*.ctxt
+# Environment and configuration
+application-*.yml
+application-*.yaml
+application-*.properties
+.env
+*.env
+*.config
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# =========================
+# Java
+# =========================
+*.class
+hs_err_pid*
+replay_pid*
+*.hprof
 
-# Package Files #
+# =========================
+# Package Archives
+# =========================
 *.jar
 *.war
 *.nar
@@ -19,6 +67,18 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# =========================
+# Others
+# =========================
+.mtj.tmp/
+!src/main/resources/
+!src/test/resources/
