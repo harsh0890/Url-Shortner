@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: urlshortner
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/sys
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password:
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+
+accessKey: ""
+accountId: "c4f90ec88ef9dbc158bdc6eaa8bb99bc"
+secretKey: ""
+
